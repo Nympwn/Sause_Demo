@@ -1,11 +1,14 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 import time
 
 @pytest.fixture()
 def driver():
-    driver = webdriver.Chrome()
+    options = Options()
+    options.add_argument('--headless')
+    driver = webdriver.Chrome(options=options)
     driver.maximize_window()
     yield driver
     driver.quit()
@@ -39,7 +42,7 @@ def test_login_and_pay(driver):
     basket = driver.find_element(By.CLASS_NAME, 'shopping_cart_link')
     basket.click()
 
-    time.sleep(3)
+    time.sleep(10)
 
     assert 'cart' in driver.current_url, 'Не удалось перейти в корзину'
 
