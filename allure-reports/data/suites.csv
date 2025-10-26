@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1184","test_successful_login","tests_POM","2025-10-26","passed","2025-10-26","","test_login","",""
+"","1229","test_add_product","tests_POM","2025-10-26","passed","2025-10-26","","test_inventory","",""
+"","780","test_invalid_login","tests_POM","2025-10-26","passed","2025-10-26","","test_login","",""
+"","19984","test_login_and_pay","1-test-file","2025-10-26","failed","2025-10-26","","test_sause_demo_standart_users","",""
+"","1423","test_login_and_pay","1-test-file","2025-10-26","passed","2025-10-26","","test_sauce_demo_standart_users_v2","",""

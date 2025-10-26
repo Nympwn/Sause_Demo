@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"c8f7c79388b0e3e40cfc6fe953909899","name":"1-test-file","statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2}},{"uid":"780a9ea88a8e02845f31ad40ba433cde","name":"tests_POM","statistic":{"failed":0,"broken":0,"skipped":0,"passed":3,"unknown":0,"total":3}}]}
