@@ -20,6 +20,12 @@ class CartPage(BasePage):
         )
         return cart.click()
 
+    def delete_item(self, name_product):
+        delete_button = self.driver.find_element(By.ID, f'remove-{name_product}')
+        delete_button.click()
+        remove = self.driver.find_element(By.CLASS_NAME, 'inventory_item_name')
+        return remove
+
     def go_to_checkout(self):
         wait = WebDriverWait(self.driver, 10)
         checkout = wait.until(

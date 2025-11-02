@@ -48,6 +48,22 @@ def test_checkout_inform_and_back_to_cart(driver):
     cart_page.back_to_cart()
     assert 'cart' in driver.current_url, 'Не удалось вернуться в корзину'
 
+def test_delete_item(driver):
+    login_page = LoginPage(driver)
+    inventory_page = InventoryPage(driver)
+    cart_page = CartPage(driver)
+
+    login_page.open_login_page()
+    login_page.login('standard_user', 'secret_sauce')
+
+    inventory_page.add_to_cart('Sauce Labs Backpack')
+    inventory_page.add_to_cart('Sauce Labs Fleece Jacket')
+
+    inventory_page.go_to_cart()
+
+    cart_page.delete_item('sauce-labs-backpack')
+    assert 'Sauce Labs Backpack' not in 
+
 def test_go_to_checkout(driver):
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
