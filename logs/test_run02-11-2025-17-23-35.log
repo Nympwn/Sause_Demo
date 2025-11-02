@@ -1,0 +1,28 @@
+2025-11-02 17:23:35,496 - INFO - autotest_logger - [logger.py] - Логирование инициализировано.
+2025-11-02 17:23:36,626 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-02 17:23:36,627 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-02 17:23:36,627 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-02 17:23:36,836 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-02 17:23:36,837 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-02 17:23:37,489 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-02 17:23:37,665 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-02 17:23:37,732 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 17:23:37,811 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 17:23:41,306 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-02 17:23:41,306 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-02 17:23:41,306 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-02 17:23:41,938 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-02 17:23:41,939 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-02 17:23:42,029 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-02 17:23:42,180 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-02 17:23:42,281 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 17:23:42,338 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 17:23:45,984 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-02 17:23:45,984 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-02 17:23:45,984 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-02 17:23:46,592 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-02 17:23:46,593 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-02 17:23:46,691 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-02 17:23:46,915 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-02 17:23:46,991 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 17:23:47,044 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')

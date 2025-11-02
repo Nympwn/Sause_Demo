@@ -1,0 +1,9 @@
+INFO     autotest_logger:base_page.py:12 Создан экземпляр страницы LoginPage
+INFO     autotest_logger:base_page.py:12 Создан экземпляр страницы InventoryPage
+INFO     autotest_logger:base_page.py:17 Открытие страницы URL: https://www.saucedemo.com/
+INFO     autotest_logger:base_page.py:26 Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+INFO     autotest_logger:base_page.py:26 Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+INFO     autotest_logger:base_page.py:22 Клик по элементу с локатором ('id', 'login-button')
+INFO     autotest_logger:base_page.py:22 Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+INFO     autotest_logger:base_page.py:22 Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+INFO     autotest_logger:base_page.py:22 Клик по элементу с локатором <selenium.webdriver.remote.webelement.WebElement (session="72cdbb3b00257642aee8513def798c66", element="f.7A9B9F213F8555CCA572784F26EB1424.d.0152D4CB80614B43B50B4419C923B858.e.14")>

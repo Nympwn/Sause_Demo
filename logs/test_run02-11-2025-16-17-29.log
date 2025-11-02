@@ -1,0 +1,10 @@
+2025-11-02 16:17:29,273 - INFO - autotest_logger - [logger.py] - Логирование инициализировано.
+2025-11-02 16:17:30,354 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-02 16:17:30,354 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-02 16:17:31,088 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-02 16:17:31,088 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-02 16:17:31,175 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-02 16:17:31,363 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-02 16:17:31,424 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 16:17:31,481 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-02 16:17:31,560 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором <selenium.webdriver.remote.webelement.WebElement (session="43606233bc1cf49c398c0e9c228aa4ac", element="f.298D5F342B643A766AB8ED59E9638102.d.61688D081657D5DD4FF7699DB004529E.e.14")>

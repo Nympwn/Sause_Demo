@@ -1,0 +1,4 @@
+[32mINFO    [0m autotest_logger:base_page.py:12 Создан экземпляр страницы LoginPage
+[32mINFO    [0m autotest_logger:base_page.py:12 Создан экземпляр страницы InventoryPage
+[32mINFO    [0m autotest_logger:base_page.py:17 Открытие страницы URL: https://www.saucedemo.com/v1/index.html
+[32mINFO    [0m autotest_logger:base_page.py:26 Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')

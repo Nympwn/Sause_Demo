@@ -1,0 +1,8 @@
+INFO     autotest_logger:test_login.py:21 Старт теста: test_invalid_login
+INFO     autotest_logger:base_page.py:12 Создан экземпляр страницы LoginPage
+INFO     autotest_logger:base_page.py:17 Открытие страницы URL: https://www.saucedemo.com/
+INFO     autotest_logger:base_page.py:26 Ввод текста "invalid_user" в элемент с локатором ('id', 'user-name')
+INFO     autotest_logger:base_page.py:26 Ввод текста "wrong" в элемент с локатором ('id', 'password')
+INFO     autotest_logger:base_page.py:22 Клик по элементу с локатором ('id', 'login-button')
+DEBUG    autotest_logger:base_page.py:33 Текст элемента: Epic sadface: Username and password do not match any user in this service
+INFO     autotest_logger:test_login.py:27 Тест успешно завершен: test_invalid_login

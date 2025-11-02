@@ -1,0 +1,13 @@
+2025-11-01 20:29:37,854 - INFO - autotest_logger - [logger.py] - Логирование инициализировано.
+2025-11-01 20:29:38,879 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-01 20:29:38,879 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-01 20:29:39,129 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/v1/index.html
+2025-11-01 20:29:39,129 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-01 20:29:52,507 - INFO - autotest_logger - [test_login.py] - Старт теста: test_successful_login
+2025-11-01 20:29:52,507 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-01 20:29:52,717 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/v1/index.html
+2025-11-01 20:29:52,717 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-01 20:30:06,109 - INFO - autotest_logger - [test_login.py] - Старт теста: test_invalid_login
+2025-11-01 20:30:06,109 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-01 20:30:06,362 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/v1/index.html
+2025-11-01 20:30:06,363 - INFO - autotest_logger - [base_page.py] - Ввод текста "invalid_user" в элемент с локатором ('id', 'user-name')
