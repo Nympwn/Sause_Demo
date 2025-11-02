@@ -17,4 +17,8 @@ class InventoryPage(BasePage):
         self.click(filter)
         add_filter = self.driver.find_element(By.LINK_TEXT, ['Name (A to Z)', 'Name (Z to A)', 'Price (low to high)', 'Price (high to low)']).text
         self.click(add_filter)
-        return str(add_filter)
+        return add_filter.text
+
+    def go_to_cart(self):
+        cart = self.driver.find_element(By.CLASS_NAME, 'shopping_cart_link')
+        return cart.click()

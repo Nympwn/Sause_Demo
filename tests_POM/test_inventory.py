@@ -15,7 +15,6 @@ def test_add_product(driver):
 
     assert inventory_page.get_cart_count(driver) == 2
 
+    inventory_page.go_to_cart()
 
-    inventory_page.filter().click('Price (low to high)')
-
-    assert inventory_page.filter == 'Price (low to high)'
+    assert 'cart' in driver.current_url, 'Не удалось перейти в корзину.'

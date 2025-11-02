@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from pages_POM.base_page import BasePage
+from utils.logger import log
 
 class LoginPage(BasePage):
     '''Страница логина'''
@@ -9,7 +10,7 @@ class LoginPage(BasePage):
     ERROR_MESSAGE = (By.CSS_SELECTOR, '[data-test="error"]')
 
     def open_login_page(self):
-        self.open('https://www.saucedemo.com/v1/index.html')
+        self.open('https://www.saucedemo.com/')
 
     def login(self, username, password):
         self.type(self.USERNAME_INPUT, username)
