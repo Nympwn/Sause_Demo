@@ -63,8 +63,7 @@ def test_delete_item(driver):
 
     cart_page.delete_item('sauce-labs-backpack')
     # не понимаю, как через assert прописать, удален ли товар
-    with pytest.raises(MessageError):
-        cart_page.delete_item('sauce-labs-backpack')
+    assert cart_page.find_delete_item(), 'Товар не был удален'
 
 def test_go_to_checkout(driver):
     login_page = LoginPage(driver)
