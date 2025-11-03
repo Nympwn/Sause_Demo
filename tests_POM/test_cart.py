@@ -1,5 +1,3 @@
-from email.errors import MessageError
-
 import pytest
 from pages_POM.login_page import LoginPage
 from pages_POM.inventory_page import InventoryPage
