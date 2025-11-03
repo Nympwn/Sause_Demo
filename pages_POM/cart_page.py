@@ -1,3 +1,5 @@
+from email.errors import MessageError
+
 from selenium.webdriver.common.by import By
 from pages_POM.base_page import BasePage
 from selenium.webdriver.support.ui import WebDriverWait
@@ -23,8 +25,8 @@ class CartPage(BasePage):
     def delete_item(self, name_product):
         delete_button = self.driver.find_element(By.ID, f'remove-{name_product}')
         delete_button.click()
-        remove = self.driver.find_element(By.CLASS_NAME, 'inventory_item_name')
-        return remove
+#        remove = self.driver.find_element(By.CLASS_NAME, 'removed_cart_item')
+
 
     def go_to_checkout(self):
         wait = WebDriverWait(self.driver, 10)

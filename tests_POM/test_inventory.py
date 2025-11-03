@@ -35,6 +35,7 @@ def test_filter(driver):
 
     inventory_page.filter(2)
     assert inventory_page.filter(2).is_selected() == True
+    # проверить по местоположению определенного товара не получится (либо не знаю как) - у товара не меняется ID в зависимости от местоположения
 
 def test_add_to_cart(driver):
 

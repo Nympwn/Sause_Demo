@@ -1,3 +1,5 @@
+from email.errors import MessageError
+
 import pytest
 from pages_POM.login_page import LoginPage
 from pages_POM.inventory_page import InventoryPage
@@ -62,7 +64,9 @@ def test_delete_item(driver):
     inventory_page.go_to_cart()
 
     cart_page.delete_item('sauce-labs-backpack')
-    assert 'Sauce Labs Backpack' not in 
+    # не понимаю, как через assert прописать, удален ли товар
+    with pytest.raises(MessageError):
+        cart_page.delete_item('sauce-labs-backpack')
 
 def test_go_to_checkout(driver):
     login_page = LoginPage(driver)

@@ -12,12 +12,14 @@ class CheckoutStepOnePage(BasePage):
     CANCEL_BUTTON = (By.ID, 'cancel')
     ERROR_MESSAGE = (By.XPATH, '//*[@id="checkout_info_container"]/div/form/div[1]/div[4]/h3')
 
-    def information(self):
-        self.type(self.FIRST_NAME_INPUT, 'first_name')
-        self.type(self.LAST_NAME_INPUT, 'last_name')
-        self.type(self.ZIP_INPUT, 'zip_code')
+    def information(self, first_name, last_name, zip_code):
+        self.type(self.FIRST_NAME_INPUT, first_name)
+        self.type(self.LAST_NAME_INPUT, last_name)
+        self.type(self.ZIP_INPUT, zip_code)
         self.click(self.CONTINUE_BUTTON)
 
     def cancel(self):
         self.click(self.CANCEL_BUTTON)
 
+    def get_message_error(self):
+        return self.get_text(self.ERROR_MESSAGE)
