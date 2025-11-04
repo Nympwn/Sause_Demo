@@ -4,8 +4,12 @@ from pages_POM.inventory_page import InventoryPage
 from pages_POM.cart_page import CartPage
 from pages_POM.checkout_step_one_page import CheckoutStepOnePage
 from conftest import *
+from utils.logger import log
 
+@pytest.mark.ui
+@pytest.mark.smoke
 def test_filling_data(driver):
+    log.info('Старт теста "test_filling_data"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -24,8 +28,12 @@ def test_filling_data(driver):
     checkout_step_one_page.information('Emily', 'Curter', '123-456')
 
     assert 'checkout-step-two' in driver.current_url, 'Не удалось перейти на страницу проверки информации.'
+    log.info('Тест "test_filling_data" успешно завершен')
 
+@pytest.mark.ui
+@pytest.mark.regression
 def test_empty_field_zip_code(driver):
+    log.info('Старт теста "test_empty_field_zip_code"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -44,8 +52,12 @@ def test_empty_field_zip_code(driver):
     checkout_step_one_page.information('Emily', 'Curter', '')
 
     assert 'Postal Code is required' in checkout_step_one_page.get_message_error()
+    log.info('Тест "test_empty_field_zip_code" успешно завершен')
 
+@pytest.mark.ui
+@pytest.mark.regression
 def test_empty_field_last_name(driver):
+    log.info('Старт теста "test_empty_field_last_name"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -64,8 +76,12 @@ def test_empty_field_last_name(driver):
     checkout_step_one_page.information('Emily', '', '123-456')
 
     assert 'Last Name is required' in checkout_step_one_page.get_message_error()
+    log.info('Тест "test_empty_field_last_name" успешно завершен')
 
+@pytest.mark.ui
+@pytest.mark.regression
 def test_empty_field_first_name(driver):
+    log.info('Старт теста "test_empty_field_first_name"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -84,8 +100,12 @@ def test_empty_field_first_name(driver):
     checkout_step_one_page.information('', 'Curter', '123-456')
 
     assert 'First Name is required' in checkout_step_one_page.get_message_error()
+    log.info('Тест "test_empty_field_first_name" успешно завершен')
 
+@pytest.mark.ui
+@pytest.mark.smoke
 def test_return_to_cart(driver):
+    log.info('Старт теста "test_return_to_cart"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -104,3 +124,4 @@ def test_return_to_cart(driver):
     checkout_step_one_page.cancel()
 
     assert 'cart' in driver.current_url, 'Не удалось вернуться в корзину.'
+    log.info('Тест "test_return_to_cart" успешно завершен')

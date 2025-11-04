@@ -1,5 +1,0 @@
-2025-11-01 20:30:52,827 - INFO - autotest_logger - [logger.py] - Логирование инициализировано.
-2025-11-01 20:30:53,852 - INFO - autotest_logger - [test_login.py] - Старт теста: test_successful_login
-2025-11-01 20:30:53,852 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
-2025-11-01 20:30:54,057 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/v1/index.html
-2025-11-01 20:30:54,057 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')

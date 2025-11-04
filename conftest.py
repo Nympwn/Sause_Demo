@@ -13,6 +13,7 @@ def driver():
 
     options = Options()
     options.add_argument('--start-maximized')
+    options.add_argument('--headless')
     prefs = {
         'profile.password_manage_leak_detection': False
     }

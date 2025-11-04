@@ -28,7 +28,9 @@ class BasePage:
         elem.clear()
         elem.send_keys(text)
 
+    @allure.step('Получение текста из элемента "{locator}"')
     def get_text(self, locator):
+        log.info(f'Проверка текста в элементе {locator}.')
         text = self.wait.until(EC.visibility_of_element_located(locator)).text
         log.debug(f'Текст элемента: {text}')
         return text

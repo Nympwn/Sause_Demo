@@ -4,9 +4,13 @@ from pages_POM.inventory_page import InventoryPage
 from pages_POM.cart_page import CartPage
 from pages_POM.checkout_step_one_page import CheckoutStepOnePage
 from pages_POM.checkout_step_two_page import CheckoutStepTwoPage
+from utils.logger import log
 from conftest import *
 
+@pytest.mark.ui
+@pytest.mark.smoke
 def test_checking_item(driver):
+    log.info('Старт теста "test_checking_item"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -27,8 +31,12 @@ def test_checking_item(driver):
 
     assert checkout_step_two_page.checking_item('5') == 'Sauce Labs Fleece Jacket'
     assert checkout_step_two_page.checking_item('4') == 'Sauce Labs Backpack'
+    log.info('Тест "test_checking_item" успешно завершен')
 
+@pytest.mark.ui
+@pytest.mark.regression
 def test_checking_value(driver):
+    log.info('Старт теста "test_checking_value"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -52,8 +60,12 @@ def test_checking_value(driver):
     assert checkout_step_two_page.checking_payment__shipping_and_price('6') == 'Item total: $79.98'
     assert checkout_step_two_page.checking_payment__shipping_and_price('7') == 'Tax: $6.40'
     assert checkout_step_two_page.checking_payment__shipping_and_price('8') == 'Total: $86.38'
+    log.info('Тест "test_checking_value" успешно завершен')
 
+@pytest.mark.ui
+@pytest.mark.smoke
 def test_back_to_inventory(driver):
+    log.info('Старт теста "test_back_to_inventory"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -75,9 +87,12 @@ def test_back_to_inventory(driver):
     checkout_step_two_page.back_to_inventory()
 
     assert 'inventory' in driver.current_url, 'Кнопка возвращения не найдена.'
+    log.info('Тест "test_back_to_inventory" успешно завершен')
 
-
+@pytest.mark.ui
+@pytest.mark.smoke
 def test_go_to_finish(driver):
+    log.info('Старт теста "test_go_to_finish"')
     login_page = LoginPage(driver)
     inventory_page = InventoryPage(driver)
     cart_page = CartPage(driver)
@@ -99,5 +114,6 @@ def test_go_to_finish(driver):
     checkout_step_two_page.go_to_finish()
 
     assert 'checkout-complete' in driver.current_url, 'Не удалось сформировать заказ'
+    log.info('Тест "test_go_to_finish" успешно завершен')
 
 
