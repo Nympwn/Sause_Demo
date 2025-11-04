@@ -1,0 +1,487 @@
+2025-11-04 16:43:57,070 - INFO - autotest_logger - [logger.py] - Логирование инициализировано.
+2025-11-04 16:43:59,295 - INFO - autotest_logger - [test_cart.py] - Старт теста "test_checkout_cart"
+2025-11-04 16:43:59,295 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:43:59,295 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:43:59,295 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:00,224 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:00,225 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:00,225 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:00,318 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:00,460 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:00,460 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:00,539 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:00,540 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:00,584 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:00,584 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:00,625 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:00,643 - INFO - autotest_logger - [cart_page.py] - Элемент успешно найден.
+2025-11-04 16:44:00,652 - INFO - autotest_logger - [cart_page.py] - Элемент успешно найден.
+2025-11-04 16:44:00,663 - INFO - autotest_logger - [cart_page.py] - Элемент успешно найден.
+2025-11-04 16:44:00,673 - INFO - autotest_logger - [cart_page.py] - Элемент успешно найден.
+2025-11-04 16:44:00,673 - INFO - autotest_logger - [test_cart.py] - Тест "test_checkout_cart" успешно завершен
+2025-11-04 16:44:03,907 - INFO - autotest_logger - [test_cart.py] - Старт теста "test_checkout_inform_and_back_to_cart"
+2025-11-04 16:44:03,907 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:03,907 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:03,907 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:04,569 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:04,570 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:04,570 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:04,649 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:04,788 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:04,788 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:04,840 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:04,841 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:04,894 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:04,895 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:04,945 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:04,987 - INFO - autotest_logger - [cart_page.py] - Успешный переход на страницу с информацией о товаре.
+2025-11-04 16:44:05,027 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение в корзину.
+2025-11-04 16:44:05,069 - INFO - autotest_logger - [cart_page.py] - Успешный переход на страницу с информацией о товаре.
+2025-11-04 16:44:05,134 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение в корзину.
+2025-11-04 16:44:05,136 - INFO - autotest_logger - [test_cart.py] - Тест "test_checkout_inform_and_back_to_cart" успешно завершен
+2025-11-04 16:44:08,349 - INFO - autotest_logger - [test_cart.py] - Старт теста "test_delete_item"
+2025-11-04 16:44:08,350 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:08,350 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:08,350 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:09,032 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:09,032 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:09,032 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:09,112 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:09,243 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:09,243 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:09,296 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:09,297 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:09,355 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:09,355 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:09,403 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:09,440 - INFO - autotest_logger - [cart_page.py] - Товар успешно удален.
+2025-11-04 16:44:09,448 - INFO - autotest_logger - [test_cart.py] - Тест "test_delete_item" успешно завершен
+2025-11-04 16:44:12,627 - INFO - autotest_logger - [test_cart.py] - Старт теста "test_go_to_checkout"
+2025-11-04 16:44:12,627 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:12,627 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:12,627 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:13,228 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:13,228 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:13,228 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:13,305 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:13,451 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:13,451 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:13,508 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:13,509 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:13,560 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:13,560 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:13,608 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:13,650 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:13,650 - INFO - autotest_logger - [test_cart.py] - Тест "test_go_to_checkout" успешно завершен
+2025-11-04 16:44:16,879 - INFO - autotest_logger - [test_checkout_complete.py] - Старт теста "test_checking_header"
+2025-11-04 16:44:16,879 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:16,879 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:16,880 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:16,880 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:16,880 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:44:16,880 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutCompletePage
+2025-11-04 16:44:17,512 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:17,512 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:17,512 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:17,586 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:17,732 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:17,732 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:17,787 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:17,787 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:17,838 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:17,838 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:17,884 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:17,928 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:17,928 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:17,982 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:18,034 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:18,151 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:18,151 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:44:18,198 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'finish')
+2025-11-04 16:44:18,198 - INFO - autotest_logger - [checkout_step_two_page.py] - Заказ успешно оформлен.
+2025-11-04 16:44:21,503 - INFO - autotest_logger - [test_checkout_complete.py] - Старт теста "test_checking_text"
+2025-11-04 16:44:21,503 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:21,503 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:21,503 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:21,503 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:21,504 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:44:21,504 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutCompletePage
+2025-11-04 16:44:22,137 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:22,137 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:22,137 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:22,219 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:22,356 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:22,356 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:22,416 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:22,416 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:22,471 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:22,471 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:22,519 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:22,563 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:22,563 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:22,619 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:22,674 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:22,801 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:22,801 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [test_checkout_complete.py] - Старт теста "test_back_to_inventory"
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:44:36,139 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutCompletePage
+2025-11-04 16:44:36,766 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:36,766 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:36,766 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:36,841 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:36,985 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:36,985 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:37,041 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:37,041 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:37,091 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:37,091 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:37,145 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:37,187 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:37,187 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:37,243 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:37,302 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:37,424 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:37,424 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:44:37,474 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'finish')
+2025-11-04 16:44:37,474 - INFO - autotest_logger - [checkout_step_two_page.py] - Заказ успешно оформлен.
+2025-11-04 16:44:37,521 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'back-to-products')
+2025-11-04 16:44:37,521 - INFO - autotest_logger - [checkout_complete_page.py] - Вы успешно вернулись к странице с товарами.
+2025-11-04 16:44:40,761 - INFO - autotest_logger - [test_checkout_step_one.py] - Старт теста "test_filling_data"
+2025-11-04 16:44:40,761 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:40,761 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:40,762 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:40,762 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:41,415 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:41,415 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:41,415 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:41,497 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:41,655 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:41,655 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:41,713 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:41,713 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:41,768 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:41,768 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:41,816 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:41,860 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:41,861 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:41,934 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:41,991 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:42,112 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:42,112 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:44:42,115 - INFO - autotest_logger - [test_checkout_step_one.py] - Тест "test_filling_data" успешно завершен
+2025-11-04 16:44:45,381 - INFO - autotest_logger - [test_checkout_step_one.py] - Старт теста "test_empty_field_zip_code"
+2025-11-04 16:44:45,381 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:45,381 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:45,381 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:45,381 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:45,988 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:45,988 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:45,988 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:46,082 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:46,212 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:46,213 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:46,266 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:46,266 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:46,315 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:46,315 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:46,361 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:46,402 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:46,402 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:46,458 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:46,513 - INFO - autotest_logger - [base_page.py] - Ввод текста "" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:46,625 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:46,625 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: .
+2025-11-04 16:44:46,625 - ERROR - autotest_logger - [checkout_step_one_page.py] - Неверно введены данные, проверьте еще раз.
+2025-11-04 16:44:46,625 - INFO - autotest_logger - [base_page.py] - Проверка текста в элементе ('xpath', '//*[@id="checkout_info_container"]/div/form/div[1]/div[4]/h3').
+2025-11-04 16:44:46,643 - DEBUG - autotest_logger - [base_page.py] - Текст элемента: Error: Postal Code is required
+2025-11-04 16:44:46,643 - INFO - autotest_logger - [test_checkout_step_one.py] - Тест "test_empty_field_zip_code" успешно завершен
+2025-11-04 16:44:49,855 - INFO - autotest_logger - [test_checkout_step_one.py] - Старт теста "test_empty_field_last_name"
+2025-11-04 16:44:49,855 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:49,855 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:49,855 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:49,855 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:50,479 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:50,480 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:50,480 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:50,558 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:50,692 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:50,693 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:50,786 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:50,787 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:50,834 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:50,834 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:50,878 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:50,920 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:50,920 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:50,972 - INFO - autotest_logger - [base_page.py] - Ввод текста "" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:51,017 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:51,126 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:51,126 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: .
+Почтовый индекс: 123-456.
+2025-11-04 16:44:51,126 - ERROR - autotest_logger - [checkout_step_one_page.py] - Неверно введены данные, проверьте еще раз.
+2025-11-04 16:44:51,126 - INFO - autotest_logger - [base_page.py] - Проверка текста в элементе ('xpath', '//*[@id="checkout_info_container"]/div/form/div[1]/div[4]/h3').
+2025-11-04 16:44:51,151 - DEBUG - autotest_logger - [base_page.py] - Текст элемента: Error: Last Name is required
+2025-11-04 16:44:51,151 - INFO - autotest_logger - [test_checkout_step_one.py] - Тест "test_empty_field_last_name" успешно завершен
+2025-11-04 16:44:54,412 - INFO - autotest_logger - [test_checkout_step_one.py] - Старт теста "test_empty_field_first_name"
+2025-11-04 16:44:54,412 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:44:54,412 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:44:54,412 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:44:54,412 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:44:55,077 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:44:55,078 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:44:55,078 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:44:55,163 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:44:55,293 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:44:55,293 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:44:55,347 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:55,347 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:44:55,407 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:44:55,407 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:44:55,455 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:44:55,497 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:44:55,497 - INFO - autotest_logger - [base_page.py] - Ввод текста "" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:44:55,544 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:44:55,604 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:44:55,825 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:44:55,825 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: .
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:44:55,825 - ERROR - autotest_logger - [checkout_step_one_page.py] - Неверно введены данные, проверьте еще раз.
+2025-11-04 16:44:55,826 - INFO - autotest_logger - [base_page.py] - Проверка текста в элементе ('xpath', '//*[@id="checkout_info_container"]/div/form/div[1]/div[4]/h3').
+2025-11-04 16:45:09,184 - INFO - autotest_logger - [test_checkout_step_one.py] - Старт теста "test_return_to_cart"
+2025-11-04 16:45:09,184 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:09,184 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:09,184 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:45:09,185 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:45:09,871 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:09,871 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:09,871 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:09,975 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:10,119 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:10,119 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:10,259 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:10,259 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:10,330 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:10,331 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:10,396 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:45:10,451 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:45:10,506 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'cancel')
+2025-11-04 16:45:10,507 - INFO - autotest_logger - [checkout_step_one_page.py] - Успешный переход в корзину товаров.
+2025-11-04 16:45:10,539 - INFO - autotest_logger - [test_checkout_step_one.py] - Тест "test_return_to_cart" успешно завершен
+2025-11-04 16:45:13,803 - INFO - autotest_logger - [test_checkout_step_two.py] - Старт теста "test_checking_item"
+2025-11-04 16:45:13,803 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:13,803 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:13,803 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:45:13,803 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:45:13,803 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:45:14,439 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:14,439 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:14,439 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:14,521 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:14,665 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:14,665 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:14,727 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:14,727 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:14,783 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:14,783 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:14,849 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:45:14,905 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:45:14,905 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:45:14,961 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:45:15,012 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:45:15,114 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:45:15,114 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:45:18,378 - INFO - autotest_logger - [test_checkout_step_two.py] - Старт теста "test_checking_value"
+2025-11-04 16:45:18,378 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:18,378 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:18,378 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:45:18,378 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:45:18,378 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:45:19,027 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:19,027 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:19,027 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:19,113 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:19,261 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:19,262 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:19,329 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:19,329 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:19,393 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:19,393 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:19,441 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:45:19,482 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:45:19,482 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:45:19,537 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:45:19,595 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:45:19,714 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:45:19,714 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:45:19,723 - INFO - autotest_logger - [checkout_step_two_page.py] - Информация по товару обнаружена.
+2025-11-04 16:45:19,739 - INFO - autotest_logger - [checkout_step_two_page.py] - Информация по товару обнаружена.
+2025-11-04 16:45:19,754 - INFO - autotest_logger - [checkout_step_two_page.py] - Информация по товару обнаружена.
+2025-11-04 16:45:19,766 - INFO - autotest_logger - [checkout_step_two_page.py] - Информация по товару обнаружена.
+2025-11-04 16:45:19,778 - INFO - autotest_logger - [checkout_step_two_page.py] - Информация по товару обнаружена.
+2025-11-04 16:45:19,783 - INFO - autotest_logger - [test_checkout_step_two.py] - Тест "test_checking_value" успешно завершен
+2025-11-04 16:45:22,993 - INFO - autotest_logger - [test_checkout_step_two.py] - Старт теста "test_back_to_inventory"
+2025-11-04 16:45:22,993 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:22,993 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:22,994 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:45:22,994 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:45:22,994 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:45:23,631 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:23,631 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:23,631 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:23,708 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:23,843 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:23,843 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:23,919 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:23,919 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:23,967 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:23,968 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:24,014 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:45:24,055 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:45:24,056 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:45:24,111 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:45:24,166 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:45:24,278 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:45:24,278 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:45:24,329 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'cancel')
+2025-11-04 16:45:24,329 - INFO - autotest_logger - [checkout_step_two_page.py] - Вы успешно вернулись к странице товаров.
+2025-11-04 16:45:27,587 - INFO - autotest_logger - [test_checkout_step_two.py] - Старт теста "test_go_to_finish"
+2025-11-04 16:45:27,587 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:27,587 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:27,587 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CartPage
+2025-11-04 16:45:27,587 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepOnePage
+2025-11-04 16:45:27,587 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы CheckoutStepTwoPage
+2025-11-04 16:45:28,200 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:28,200 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:28,201 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:28,298 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:28,436 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:28,436 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:28,489 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:28,490 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:28,541 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:28,541 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:28,587 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:45:28,630 - INFO - autotest_logger - [cart_page.py] - Успешное возвращение на страницу товаров.
+2025-11-04 16:45:28,630 - INFO - autotest_logger - [base_page.py] - Ввод текста "Emily" в элемент с локатором ('id', 'first-name')
+2025-11-04 16:45:28,684 - INFO - autotest_logger - [base_page.py] - Ввод текста "Curter" в элемент с локатором ('id', 'last-name')
+2025-11-04 16:45:28,740 - INFO - autotest_logger - [base_page.py] - Ввод текста "123-456" в элемент с локатором ('id', 'postal-code')
+2025-11-04 16:45:28,856 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'continue')
+2025-11-04 16:45:28,856 - DEBUG - autotest_logger - [checkout_step_one_page.py] - Информация о покупателе.
+Имя: Emily.
+Фамилия: Curter.
+Почтовый индекс: 123-456.
+2025-11-04 16:45:28,903 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'finish')
+2025-11-04 16:45:28,903 - INFO - autotest_logger - [checkout_step_two_page.py] - Заказ успешно оформлен.
+2025-11-04 16:45:28,906 - INFO - autotest_logger - [test_checkout_step_two.py] - Тест "test_go_to_finish" успешно завершен
+2025-11-04 16:45:32,200 - INFO - autotest_logger - [test_inventory.py] - Старт теста "test_add_product"
+2025-11-04 16:45:32,200 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:32,200 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:32,842 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:32,843 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:32,843 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:32,935 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:33,073 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:33,073 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:33,123 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:33,123 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:33,179 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:33,179 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:33,179 - ERROR - autotest_logger - [test_inventory.py] - Тест не может быть завершен.
+2025-11-04 16:45:36,505 - INFO - autotest_logger - [test_inventory.py] - Старт теста "test_get_cart_count"
+2025-11-04 16:45:36,505 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:36,505 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:37,209 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:37,209 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:37,209 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:37,297 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:37,444 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:37,444 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:37,497 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:37,497 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:37,549 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:37,549 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:40,789 - INFO - autotest_logger - [test_inventory.py] - Старт теста "test_filter"
+2025-11-04 16:45:40,789 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:40,789 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:41,481 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:41,481 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:41,481 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:41,556 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:41,709 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:41,710 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:41,772 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором <selenium.webdriver.remote.webelement.WebElement (session="0d270854013c0baefcf538b1f103c6bd", element="f.144A5094BA2BFC06932EB55EACFF1403.d.F457CBC131A77E33DAFE8E3F4215FE13.e.13")>
+2025-11-04 16:45:41,819 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором <selenium.webdriver.remote.webelement.WebElement (session="0d270854013c0baefcf538b1f103c6bd", element="f.144A5094BA2BFC06932EB55EACFF1403.d.F457CBC131A77E33DAFE8E3F4215FE13.e.17")>
+2025-11-04 16:45:41,820 - DEBUG - autotest_logger - [inventory_page.py] - Фильтр был успешно применен.
+2025-11-04 16:45:41,870 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором <selenium.webdriver.remote.webelement.WebElement (session="0d270854013c0baefcf538b1f103c6bd", element="f.144A5094BA2BFC06932EB55EACFF1403.d.F457CBC131A77E33DAFE8E3F4215FE13.e.22")>
+2025-11-04 16:45:41,892 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором <selenium.webdriver.remote.webelement.WebElement (session="0d270854013c0baefcf538b1f103c6bd", element="f.144A5094BA2BFC06932EB55EACFF1403.d.F457CBC131A77E33DAFE8E3F4215FE13.e.27")>
+2025-11-04 16:45:41,892 - DEBUG - autotest_logger - [inventory_page.py] - Фильтр был успешно применен.
+2025-11-04 16:45:41,899 - INFO - autotest_logger - [test_inventory.py] - Тест "test_filter" успешно завершен
+2025-11-04 16:45:45,181 - INFO - autotest_logger - [test_inventory.py] - Старт теста "test_add_to_cart"
+2025-11-04 16:45:45,182 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:45,182 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы InventoryPage
+2025-11-04 16:45:45,833 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:45,833 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:45,833 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:45,909 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:46,049 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:46,049 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:46,106 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Backpack"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:46,106 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Backpack успешно добавлен.
+2025-11-04 16:45:46,173 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('xpath', '//div[text()="Sauce Labs Fleece Jacket"]/ancestor::div[@class="inventory_item"]//button')
+2025-11-04 16:45:46,173 - INFO - autotest_logger - [inventory_page.py] - Товар Sauce Labs Fleece Jacket успешно добавлен.
+2025-11-04 16:45:46,218 - INFO - autotest_logger - [inventory_page.py] - Успешный переход в корзину.
+2025-11-04 16:45:46,221 - INFO - autotest_logger - [test_inventory.py] - Тест "test_add_to_cart" успешно завершен
+2025-11-04 16:45:49,458 - INFO - autotest_logger - [test_login.py] - Старт теста: test_successful_login
+2025-11-04 16:45:49,458 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:50,166 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:50,166 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:50,166 - INFO - autotest_logger - [base_page.py] - Ввод текста "standard_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:50,258 - INFO - autotest_logger - [base_page.py] - Ввод текста "secret_sauce" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:50,385 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:50,386 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:50,389 - INFO - autotest_logger - [test_login.py] - Тест успешно завершен: test_successful_login
+2025-11-04 16:45:53,631 - INFO - autotest_logger - [test_login.py] - Старт теста: test_invalid_login
+2025-11-04 16:45:53,631 - INFO - autotest_logger - [base_page.py] - Создан экземпляр страницы LoginPage
+2025-11-04 16:45:54,339 - INFO - autotest_logger - [base_page.py] - Открытие страницы URL: https://www.saucedemo.com/
+2025-11-04 16:45:54,339 - INFO - autotest_logger - [login_page.py] - Страница успешно открыта.
+2025-11-04 16:45:54,339 - INFO - autotest_logger - [base_page.py] - Ввод текста "invalid_user" в элемент с локатором ('id', 'user-name')
+2025-11-04 16:45:54,418 - INFO - autotest_logger - [base_page.py] - Ввод текста "wrong" в элемент с локатором ('id', 'password')
+2025-11-04 16:45:54,534 - INFO - autotest_logger - [base_page.py] - Клик по элементу с локатором ('id', 'login-button')
+2025-11-04 16:45:54,534 - INFO - autotest_logger - [login_page.py] - Авторизация прошла успешно.
+2025-11-04 16:45:54,534 - ERROR - autotest_logger - [login_page.py] - Ошибка авторизации – ввод неверных данных.
+2025-11-04 16:45:54,534 - INFO - autotest_logger - [base_page.py] - Проверка текста в элементе ('css selector', '[data-test="error"]').
+2025-11-04 16:45:54,556 - DEBUG - autotest_logger - [base_page.py] - Текст элемента: Epic sadface: Username and password do not match any user in this service
+2025-11-04 16:45:54,557 - INFO - autotest_logger - [test_login.py] - Тест успешно завершен: test_invalid_login
